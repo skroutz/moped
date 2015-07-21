@@ -18,7 +18,7 @@ module Moped
         end
 
         def to_utf8_binary_moped
-          to_s.to_utf8_binary
+          to_s.to_utf8_binary_moped
         end
 
         module ClassMethods
